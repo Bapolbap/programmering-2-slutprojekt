@@ -20,9 +20,17 @@ namespace programmering_2_slutprojekt
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Controller controller;
+        private View view;
         public MainWindow()
         {
             InitializeComponent();
+            InitializePoolBalls();
+        }
+
+        private void InitializePoolBalls()
+        {
+
         }
     }
 }

@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:programmering_2_slutprojekt"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <Canvas>
+        
+        
+        <Canvas.Background>
+            <ImageBrush ImageSource="./Images/pooltable.png"/>
+        </Canvas.Background>
+    </Canvas>
 </Window>
